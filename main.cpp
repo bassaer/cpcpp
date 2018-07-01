@@ -1,10 +1,3 @@
-# cpcpp
-
-sample code
-
-```
-~/cpcpp master* localhost.localdomain
-❯ cat main.cpp
 #include <stdio.h>
 #include <string>
 
@@ -61,26 +54,3 @@ int main() {
   foo7->hello();
   delete foo6;
 }
-```
-
-result
-```
-~/cpcpp master* localhost.localdomain
-❯ ./main.out
-==foo1==
-hello [foo1]
-==foo2==
-Copied from foo1
-hello [foo1]
-==foo3==
-Copied from foo1
-hello [foo1]
-==foo4==
-hello [foo1]
-==foo5==
-hello [foo1]
-==foo6==
-hello [foo6]
-==foo7==
-hello [foo6]
-```
